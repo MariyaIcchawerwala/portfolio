@@ -20,8 +20,10 @@
     padding: 1rem;
     position: fixed;
     z-index: 10;
-    width: 100%;
-    
+    width: 100%;   
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
 }
 
 .hamburger{
@@ -32,7 +34,7 @@
     .nav{
         flex-direction: column;
         justify-content: center;
-        background: black;
+        background: rgb(49, 75, 73);
         align-items: center;
         font-size: 1rem;
         width: 100%;
