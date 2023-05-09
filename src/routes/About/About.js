@@ -45,34 +45,34 @@ const About = () => {
         <div className="grid">
 
           <div className="tool">
-            <FaReact size={35} className="icons" /> <p >React Js </p>
+            <FaReact size={50} className="icons" /> <p >React Js </p>
           </div>
 
           <div className="tool">
-            <FaHtml5 size={35} className="icons" /> <p >HTML5 </p>
+            <FaHtml5 size={50} className="icons" /> <p >HTML5 </p>
           </div>
 
           <div className="tool ">
-            <FaCss3 size={35} className="icons" /> <p >Css3 </p>
+            <FaCss3 size={50} className="icons" /> <p >Css3 </p>
           </div>
 
           <div className="tool ">
-            <FaJava size={35} className="icons" /> <p >Java </p>
+            <FaJava size={50} className="icons" /> <p >Java </p>
           </div>
           
             <div className="tool ">
-              <FaNodeJs size={35}  className="icons"/> <p >Node JS </p>
+              <FaNodeJs size={50}  className="icons"/> <p >Node JS </p>
             </div>
             <div className="tool ">
-              <FaJs size={35} className="icons" /> <p >Java Script </p>
+              <FaJs size={50} className="icons" /> <p >Java Script </p>
             </div>
          
           <div className="tool ">
-            <FaGitlab size={35} className="icons" /> <p>GitLab </p> 
+            <FaGitlab size={50} className="icons" /> <p>GitLab </p> 
           </div>  
 
           <div className="tool ">
-            <SiSpringboot size={35} className="icons" /> <p>SpringBoot </p> 
+            <SiSpringboot size={50} className="icons" /> <p>SpringBoot </p> 
           </div> 
  
         </div>
