@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import React from "react"
-import About from './routes/About';
+import About from './routes/About/About';
 import Contact from './routes/Contact';
 import Home from './routes/Home';
 import Project from './routes/Project';

@@ -27,14 +27,17 @@
 }
 .adress p{
     line-height: 30px;
+    font-size: 1.3rem;
 }
 .phone{
     display: flex;
     margin-bottom: 0.8rem;
+    font-size: 1.3rem;
 }
 .mail{
     display: flex;
     margin-bottom: 0.8rem;
+    font-size: 1.3rem;
 }
 .right{
     height: 100%;
@@ -47,8 +50,6 @@
 .right a{
     margin-bottom: 1rem;
     display: flex;
-}
-h4,p{
     font-size: 1.3rem;
 }
 
