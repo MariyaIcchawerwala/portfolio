@@ -3,9 +3,9 @@ import './App.css';
 import './index.css';
 import React from "react"
 import About from './routes/About/About';
-import Contact from './routes/Contact';
+
 import Home from './routes/Home';
-import Project from './routes/Project';
+import Project from './routes/Projects/Project';
 import {Route,Routes } from "react-router-dom"
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
        <Route path="/" element={<Home/>}/>
        <Route path="/project" element={<Project/>}/>
        <Route path="/about" element={<About/>}/>
-       <Route path="/contact" element={<Contact/>}/>
+
      </Routes>
     </>
   );

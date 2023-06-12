@@ -9,16 +9,43 @@ width: 100%;
   left: 50%;
   text-align: center;
 }
-.content{
-    color: white;
-    display: flex;
-    justify-content:initial;
-    align-items: center;
+
+.download{
+  width: 161px;
+}
+.flex{
+  color: white;
+  display: flex;
+  justify-content:initial;
+  align-items: center;
+}
+.profile{
+display: flex;
+flex-direction: row;
+}
+
+.visit{
+   padding: 1rem 0rem;
+   display: flex;
+   align-items: center;
+   max-width: 100%;
+   top: 130%;
+   left: -18%;
+   position: absolute;
 }
 .mask{
   width: 100%;
   height: 100vh;
   position: relative;
+}
+
+.downloadPara{
+  font-size: 1.4rem;
+  margin: 0rem 1.5rem;
+}
+
+.download{
+  padding: 8px 25px;
 }
 
 .mask::after{
@@ -40,9 +67,10 @@ width: 100%;
 }
 .image{
   height: 300px; 
-  border-radius: 300px;
+  border-radius: 19px;
 
 }
+
 .project{
   margin-top: 25px;
 }
@@ -56,6 +84,14 @@ width: 100%;
   .image{
     display: none;
   }
+  /* .downloadPara{
+    display: none;
+  } */
+  .visit {
+    max-width: 100%;
+    top: 402%;
+    left: -3%;
+}
   .des{
     margin: 0px 10px;
     width: 372px;

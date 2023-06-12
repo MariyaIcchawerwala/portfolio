@@ -19,25 +19,35 @@ import{
 } from "react-icons/si"
 
 const About = () => {
+  
+  const[size ,setSize] = useState(50);
 
+  const [width, setWidth] = React.useState(window.innerWidth);
 
+  useEffect(() => {
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
+  });
+
+  useEffect(() => {
+    if(width<=1000){
+      setSize(35)
+    }
+    else{
+      setSize(50)
+    }
+  });
+  
   return(
     <div>
       <Navbar />
       <div className="about">
-        <div className="mask">
-          <img className="background" src={background} alt="background image" />
+        <div className="back">
+          <img className="backgroundImage" src={background} alt="background image" />
         </div>
         <div className="intro card section">
           <h3 className="title">About Me</h3>
           <p className="para">
-            Hello again! Thanks for scrolling this far. I am a web Developer
-            with good knowledge and professional expirience in React. Currently
-            i am working as react developer on a live project with a freelancing
-            team. Along with good knowledge of frontend technologies I also have
-            my hands on backend technologies such as java, springboot,javascript
-            and node js as i have training as a software developer intern in
-            java in Indore at GoodVibes Placement services.
+            Hello again! i am a web developer and a motivated individual with in-depth knowledge of Programming languages and development tools,Along with good knowledge of frontend technologies I also have my hands on backend technologies such as java, springboot,javascript and node js  Currently i am working as a freelancer react developer on a live project and looking forward to contribute  with strong skill set, while having the scope to develop my own skills
           </p>
         </div>
         <div className="skills card ">
@@ -45,34 +55,34 @@ const About = () => {
         <div className="grid">
 
           <div className="tool">
-            <FaReact size={50} className="icons" /> <p >React Js </p>
+            <FaReact size={size} className="icons" /> <p >React Js </p>
           </div>
 
           <div className="tool">
-            <FaHtml5 size={50} className="icons" /> <p >HTML5 </p>
+            <FaHtml5 size={size} className="icons" /> <p >HTML5 </p>
           </div>
 
           <div className="tool ">
-            <FaCss3 size={50} className="icons" /> <p >Css3 </p>
+            <FaCss3 size={size} className="icons" /> <p >Css3 </p>
           </div>
 
           <div className="tool ">
-            <FaJava size={50} className="icons" /> <p >Java </p>
+            <FaJava size={size} className="icons" /> <p >Java </p>
           </div>
           
             <div className="tool ">
-              <FaNodeJs size={50}  className="icons"/> <p >Node JS </p>
+              <FaNodeJs size={size}  className="icons"/> <p >Node JS </p>
             </div>
             <div className="tool ">
-              <FaJs size={50} className="icons" /> <p >Java Script </p>
+              <FaJs size={size} className="icons" /> <p >Java Script </p>
             </div>
          
           <div className="tool ">
-            <FaGitlab size={50} className="icons" /> <p>GitLab </p> 
+            <FaGitlab size={size} className="icons" /> <p>GitLab </p> 
           </div>  
 
           <div className="tool ">
-            <SiSpringboot size={50} className="icons" /> <p>SpringBoot </p> 
+            <SiSpringboot size={size} className="icons" /> <p>SpringBoot </p> 
           </div> 
  
         </div>
