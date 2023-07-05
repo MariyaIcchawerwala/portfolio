@@ -134,5 +134,28 @@
           }
        
     }
+    @media (max-width:380px){
+      .intro {
+        top: 53%;
+        height: 74%;
+        width: 78%;
+    }
+    .skills{
+      top:110%
+    }
+    .about{
+      height: 180%;
+      width: 100%;
+      
+      }
+      .back{
+        height: 180vh;
+        position: relative;
+      }
+
+      .backgroundImage {
+        height: 180vh;
+    }
+    }
     
   

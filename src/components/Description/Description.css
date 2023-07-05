@@ -98,3 +98,9 @@ flex-direction: row;
     font-size: 1.4rem;
   }
 }
+
+@media (max-width:380px){
+  .visit {
+    top: 311%;
+}
+}
